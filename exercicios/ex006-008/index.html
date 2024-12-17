@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercícios </title>
+</head>
+<body>
+    <h1>Entendendo Portugal</h1> 
+    <h2>Introdução</h2><!-- Utilizando os atalhos ctrl + shift + p. podemos escolger a opção Emmet:wrap with abbreviation para adicionar tags já em textos escritos-->
+    <h3>Justificação da temática</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, et repudiandae, dolor illo eius placeat cupiditate, voluptate voluptatibus nesciunt dolorem nisi consectetur asperiores autem iste iusto. Nobis minima rerum iure.</p> <!--Só digitar o comando lorem que ele simula um parágrafo -->
+    <h3>Perguntas da partida</h3>
+    <p>Lorem, <strong>ipsum dolor sit amet consectetur adipisicing elit.</strong> Nihil sit odit dolor eum saepe pariatur minus error est facilis soluta. Iste, hic repellat! Eos magnam rerum in, culpa eaque blanditiis.</p><!-- A tag semântica <strong> tem função de deixar o texto selecionado em destaque -->
+    <h3>Caráter</h3> 
+    <p><em>Lorem ipsum dolor sit,</em> amet consectetur adipisicing elit. Quos, maiores esse debitis ipsum quas voluptas placeat sequi dolorem fuga ex voluptatibus, facere voluptates, magni iure omnis nobis porro accusamus ipsam!</p><!-- A tag semântica <em> tem função de deixar o texto selecionado em ênfase(emphasis) -->
+    <h3>Metodologia</h3>
+    <h4>Etapas</h4>
+    <p><mark>Lorem</mark>, ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus fuga distinctio consequuntur, maxime nesciunt voluptatibus praesentium repellendus deserunt repudiandae error rerum doloribus ea ab unde omnis. Tenetur, ea deleniti?</p>
+    <h4>Instrumento</h4>
+    <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit.</del> <ins>At magnam obcaecati, dolores minus dicta nesciunt, debiti s quo et dolorem ad esse omnis quaerat eligendi doloribus repellat velit fugit? Animi, eos.</ins></p> <!-- essas são duas tags semânticas -->
+    <h2>Ordenando o Território</h2>
+    <h3>Instrumentos em cada um</h3>
+    <h4>Os níveis presentes</h4>
+    <p>3+5<sup>4</sup> Lorem H<sub>2</sub>O dolor sit amet consectetur adipisicing elit. Officiis ipsa recusandae cumque dolore sapiente sunt numquam asperiores vero fugit mollitia! Possimus voluptates ab, perferendis a ad culpa. Beatae, eveniet reprehenderit.</p>
+    <h4>Situações presentes</h4>
+    <p><code>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus hic quisquam, aliquid cum, consectetur magni, porro odit reprehenderit atque vitae eum libero incidunt reiciendis dicta at quidem velit ratione officiis.</code></p><!-- Cria textos monoespaçados, ou seja, comparado com os anteriores todasas letras ocupam o mesmo esfaço (selecionando cada uma é possível ver a diferença). Utilizado geralmente para escrever códigos -->
+
+    <h2>Para escrever Códigos</h2>
+    <h3>Exemplo Python</h3><!-- se somente utilizar a tag <code> o texto ficará desalinhado, nem sendo possível mudar sua identação, dessa forma que escrevemos o código, então para corrigir isso utilizamo a tag <pre> -->
+        <p>Código fonte / Pré-formatação</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num é ÍMPAR'})
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+        Como já dizia o velho ditado: <q>Programação? Nem pintado a ouro!</q> <!--  <q> tem função semântica para citações. se for para casos de ironia ou algo assim pode adicionar "" manualmente-->
+        <h2>Citações Completas</h2>
+        <p>De acordo com JEff Hoss, em seu licro de HTML</p>
+        <blockquote cite="Usado para citar a url da autoria, não é visual e sim para SEO">HTML, o esqueleto da WEB.Se me acham um gênio, elá é o própio Einstein</blockquote>
+        <h2>Abreviações</h2>
+        <p>Estudo sobre <abbr title="HyperText Markup Language">HTML</abbr>. É muito interessante!</p>
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Não é possível que isso seja útil...</bdo></p>
+</body> 
+</html>

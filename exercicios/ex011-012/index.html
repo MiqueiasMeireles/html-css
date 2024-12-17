@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos ou diminua/aumente o tamanho de seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Aprendendo oque fazer!</p>
+    <audio preload="metadata" controls >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"><!-- para saber o type é só consultar o na internet -->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg"> <!-- outro formato de áudio, pois possa ser que o suario que abrir em um navegador não compatível com mp3, irá utilizar essa opão -->
+    </audio>
+
+    <h1>Inserindo Vídeos localmente</h1>
+    <p>este vídeo esta hospedado no meu proprio servidor</p>
+    <video width="450" poster="imagens/limoes-capa.png" controls loop>
+        <source src="midia/meu-video.webm" type="video/webm"><!-- coloquei essa extensão primeiro, pois consume bem menos banda do servidor -->
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg"><!-- a extensão de vídeo é .ogv, mas o tipo continua sendo ogg -->
+    </video>
+
+    <h1>Inserindo Vídeos Externos</h1><!-- dessa forma não consome dados do servidor -->
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/6GukYxFiA4M?si=sgcMQ8dUxuVnQ7jT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
