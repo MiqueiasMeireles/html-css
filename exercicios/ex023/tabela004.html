@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 600px;      
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3" >Filmes</th> <!-- Ultiza o group quando o escopo se refere a mais de uma coluna/linha -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th  scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Harry Potter</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+            </tr>   
+            <tr>
+                <td>Joana Silva</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <td>Anita Medina</td>
+                <td>Star Wars</td>
+                <td>Indiana Jones</td>
+                <td>Mad Max</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>João da Silva</td>
+                <td>Batman</td>
+                <td>Superman</td>
+                <td>Spiderman</td>
+            </tr>
+            <tr>
+                <td>Carlos Miguel</td>
+                <td>Thor</td>
+                <td>Wolverine</td>
+                <td>Flash</td>
+            </tr>
+            <tr>
+                <td>Antônio</td>
+                <td>Deadpool</td>
+                <td>American Pie</td>
+                <td>Oblivion</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total de Filmes</th>
+                <td>15</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

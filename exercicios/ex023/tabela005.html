@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 500px;      
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #cNome {
+            background-color: lawngreen;
+        }
+
+        #cSexo {
+            background-color: lightblue;
+        }
+
+        #cIdade {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="cNome">
+            <col id="cSexo">
+            <col id="cIdade" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Masculino</td>
+            <td>40</td>
+            <td>Analista</td>
+        </tr>
+        <tr>
+            <td>Juliana</td>
+            <td>Feminino</td>
+            <td>45</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Masculino</td>
+            <td>50</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
