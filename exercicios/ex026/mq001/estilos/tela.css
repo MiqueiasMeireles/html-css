@@ -1,0 +1,38 @@
+/* Estilos para tela */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(172, 166, 166);
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    background-color: gray;
+}
+
+li {
+    color: white;
+    background-color: rgb(95, 94, 94);
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
