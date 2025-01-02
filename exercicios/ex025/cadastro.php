@@ -1,0 +1,1 @@
+ Olhando o index.html, o atributo action é responsável por enviar as informações para a linguagem/script e armazena-las (Como é um curso de html e css não irá funcionar, é somente para entender)
