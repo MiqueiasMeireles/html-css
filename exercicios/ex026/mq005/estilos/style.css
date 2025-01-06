@@ -1,0 +1,76 @@
+/* Estilos para tela */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(172, 166, 166);
+}
+
+#burguer {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {  
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(95, 94, 94);
+    display: block;
+    padding: 10px;
+    border-top: 2px solid gray;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
