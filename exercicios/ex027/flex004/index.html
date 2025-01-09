@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            background-color: lightsalmon;
+            /* com uma altura maior, é possível visualizar melhor as propriedades do align-items */
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+
+            /* justify-content: alinhamento do eixo principal (main-axis) */
+            justify-content: space-between; /* Teste as diferenças dos space- e flex-*/
+            
+            /* aling-itens: alinhamento do eixo transversal (cross-assis) */
+            align-items: center; /* center, stretch, flex-start, flex-end */
+        }
+
+        .item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
